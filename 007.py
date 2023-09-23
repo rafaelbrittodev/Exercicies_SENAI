@@ -6,7 +6,7 @@ A raiz quadrada de 9 é : 3
 '''
 print('********** Calculadora de dobro-triplo e raiz quadrada **********\n')
 
-n1 = int(input('Digite um número inteiro: '))
+n1 = float(input('Digite um número inteiro: '))
 
 dobro = n1 * 2
 triplo = n1 * 3
