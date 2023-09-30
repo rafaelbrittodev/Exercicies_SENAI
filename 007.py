@@ -1,9 +1,9 @@
-'''Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
-Saída esperada:
-A dobro de 9 é : 18
-A triplo de 9 é : 27
-A raiz quadrada de 9 é : 3
-'''
+# Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+# Saída esperada:
+# A dobro de 9 é : 18
+# A triplo de 9 é : 27
+# A raiz quadrada de 9 é : 3
+
 print('********** Calculadora de dobro-triplo e raiz quadrada **********\n')
 
 n1 = float(input('Digite um número inteiro: '))

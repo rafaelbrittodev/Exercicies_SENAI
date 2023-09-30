@@ -1,4 +1,5 @@
 #Escreva um programa que peça ao usuário dois números e imprima se eles são iguais ou diferentes.
+
 def iguais_or_diferentes(a,b):
     if a == b:
         print('Seus números são iguais.')

@@ -1,8 +1,7 @@
-'''
-Escreva um programa que converta real para o Franco Congolês
-Saída esperada:
-10,00 reais, equivalem a 5052,00 Francos Congoleses
-'''
+# Escreva um programa que converta real para o Franco Congolês
+# Saída esperada:
+# 10,00 reais, equivalem a 5052,00 Francos Congoleses
+
 print('********** Convertor de Moeda - Franco Congolês **********\n'
       'ATENÇÂO: Cotação utilizada de 23/09/2023.\n'
       '1 real = 0,0020 francos congoleses\n')

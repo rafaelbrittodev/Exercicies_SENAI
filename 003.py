@@ -1,9 +1,8 @@
-'''
-Escreva um programa que leia o nome, e o sobrenome, CONCATENE em uma nova variável nome completo,
-e retorne para o usuário
-Saída esperada:
-Seu nome completo é: Luis Tatino
-'''
+# Escreva um programa que leia o nome, e o sobrenome, CONCATENE em uma nova variável nome completo,
+# e retorne para o usuário
+# Saída esperada:
+# Seu nome completo é: Luis Tatino
+
 print('********** Mostrador de Nome Completo **********\n')
 
 Nome = input('Digite seu primeiro nome ')

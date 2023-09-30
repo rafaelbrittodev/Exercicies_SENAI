@@ -1,8 +1,7 @@
-'''
-Escreva um programa que leia, o nome e retorne para o usuário
-Saída esperada:
-Meu nome é Luis Tatin
-'''
+# Escreva um programa que leia, o nome e retorne para o usuário
+# Saída esperada:
+# Meu nome é Luis Tatin
+
 print('********** Mostrador de nomes **********\n')
 
 Nome = input('Digite seu nome: ')

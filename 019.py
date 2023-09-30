@@ -1,5 +1,6 @@
 #Escreva um programa que peça ao usuário um número e imprima se está entre 0 e 10,
 #entre 10 e 20 ou maior que 20.
+
 def margem(a):
     if a >= 0 and a <= 10:
         print('Seu número está entre 0 e 10.')

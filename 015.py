@@ -1,4 +1,4 @@
-#Escreva um programa que peça ao usuário um número e imprima se é par ou ímpar
+#Escreva um programa que peça ao usuário um número e imprima se é par ou ímpar.
 
 def par_or_impar(a):
     if a % 2 == 0:

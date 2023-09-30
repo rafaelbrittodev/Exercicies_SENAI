@@ -1,4 +1,4 @@
-#Escreva um programa que peça ao usuário uma idade e imprima se é maior ou menor de idade (18 anos).
+#Escreva um programa que peça ao usuário uma idade e imprima se é maior ou menor de idade (18 anos)..
 
 def maioridade(a):
     if a >= 18:

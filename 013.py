@@ -1,8 +1,8 @@
-'''Crie um programa que leia uma frase e mostre:
-Quantas vezes aparece a letra “a”
-Em que posição ela aparece a primeira vez
-Em que posição ela aparece na última vez
-'''
+# Crie um programa que leia uma frase e mostre:
+# Quantas vezes aparece a letra “a”
+# Em que posição ela aparece a primeira vez
+# Em que posição ela aparece na última vez
+
 Nome = input('Digite sua frase: ').strip()
 Nome = Nome.upper()
 
