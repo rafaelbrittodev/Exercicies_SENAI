@@ -34,7 +34,7 @@ print(f'O tamanho do seu nome é {len(Nome)}') #A Função len(), retorna o tama
 
 Nome = Nome.split() #Separa nossa STRING em lista
 print(f'O Primeiro nome é: {Nome[0]}') #Analisando o Primeiro Nome
-'''
+''''''
 Nome = ['Rafael', 'da', 'Silva', 'Brito']
 Nome = '/'.join(Nome) #O método .join junta elementos da minha STRING
 print(Nome)
@@ -43,4 +43,19 @@ Nome = input('Digite o seu nome: ')
 Nome = Nome.upper() #Transforma toda minha STRING em Maiusculo
 print(Nome)
 Nome = Nome.lower() #Transforma toda minha STRING em Minusculo
-print(Nome)
+print(Nome)'''
+'''
+altura = float(input('Digite sua altura: '))
+if altura > 1.5: #Comparação de variável
+    print('Você pode andar no brinquedo!')
+else:   # Saída negativa
+    print('Quem sabe no ano próximo ano!')
+    
+#--------------------------------------------
+if altura > 1.5 and altura < 2:
+    print('Você pode andar no Brinquedo.')
+elif altura > 2:
+    print('Você irá bater a cabeça! Está proibido!')
+else:
+    print('Você é muito pequeno, quem sabe no próximo ano.')
+'''
