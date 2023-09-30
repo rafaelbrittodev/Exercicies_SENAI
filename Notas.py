@@ -17,8 +17,30 @@ N2 = int(input('Digite o segundo número: '))
 Soma = N1 + N2
 
 print(f'A soma de N1 e N2 é {Soma}')
-'''
+
 Nome = 'Rafael'
 Sobrenome = 'Brito'
 Nome_completo = Nome + ' ' + Sobrenome
 print(Nome_completo)
+'''
+'''
+#Declaração de variável
+Nome = input('Digite seu nome: ')
+
+Nome = Nome.strip() #Remove os espaços a direita e esquerda
+print(f'A primeira letrata é: {Nome[0]}') Analiso a primeira letra da STRING
+
+print(f'O tamanho do seu nome é {len(Nome)}') #A Função len(), retorna o tamanho da STRING
+
+Nome = Nome.split() #Separa nossa STRING em lista
+print(f'O Primeiro nome é: {Nome[0]}') #Analisando o Primeiro Nome
+'''
+Nome = ['Rafael', 'da', 'Silva', 'Brito']
+Nome = '/'.join(Nome) #O método .join junta elementos da minha STRING
+print(Nome)
+
+Nome = input('Digite o seu nome: ')
+Nome = Nome.upper() #Transforma toda minha STRING em Maiusculo
+print(Nome)
+Nome = Nome.lower() #Transforma toda minha STRING em Minusculo
+print(Nome)
