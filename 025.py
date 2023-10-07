@@ -7,7 +7,6 @@ def cpu_player(a):
         print('PAPEL')
     elif a == 3:
         print('TESOURA')
-
 def regras_JOKEMPO(a,b):
     if a == 1 and b == 1:
         print('EMPATE')

@@ -23,7 +23,5 @@ imc_pessoa = peso / (altura*altura)
 
 print(f'\nSeu IMC é de {imc_pessoa:.2f}'
       f'\nSeu IMC é considerado: ')
+
 imc(imc_pessoa)
-
-
-
