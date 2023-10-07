@@ -19,16 +19,20 @@ def check_nota(a):
         else:
             a = float(input('Valor inválido. Por favor, digite uma nota entre 0 e 10: '))
 
-n1 = float(input('Digite a nota 1: '))
-check_nota(n1)        
-n2 = float(input('Digite a nota 2: '))
-check_nota(n2)          
-n3 = float(input('Digite a nota 3: '))
-check_nota(n3)          
-n4 = float(input('Digite a nota 4: '))
-check_nota(n4)          
-n5 = float(input('Digite a nota 5: '))
-check_nota(n5)          
+while True:
+    try:
+        n1 = float(input('Digite a nota 1: '))
+        check_nota(n1)
+        n2 = float(input('Digite a nota 2: '))
+        check_nota(n2)
+        n3 = float(input('Digite a nota 3: '))
+        check_nota(n3)
+        n4 = float(input('Digite a nota 4: '))
+        check_nota(n4)
+        n5 = float(input('Digite a nota 5: '))
+        check_nota(n5)
 
+    except ValueError:
+        print('Valor inválido')
 
 media_notas(n1, n2, n3, n4, n5)
