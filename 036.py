@@ -11,5 +11,6 @@ for pessoa in range(1, 8):
         menor = peso
 
 
-print(f'O maior peso é {maior}\nO menor peso é {menor}')
+print(f'\nO maior peso é {maior:.2f}Kg'
+      f'\nO menor peso é {menor:.2f}Kg')
 
