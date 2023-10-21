@@ -7,8 +7,9 @@ for pessoa in range(1, 8):
 
     if peso > maior:
         maior = peso
-    elif peso < maior:
+    elif peso < maior or peso < menor:
         menor = peso
+
 
 print(f'O maior peso é {maior}\nO menor peso é {menor}')
 
