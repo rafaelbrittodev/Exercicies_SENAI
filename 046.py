@@ -7,6 +7,7 @@
 
 total = 0
 maior = 0
+soma = 0
 menor_name = ''
 menor = None
 
@@ -19,14 +20,11 @@ while True:
     if menu == 1:
         new_name = str(input('\nDigite o nome do produto: '))
         new_valor = float(input('\nDigite o seu valor: R$ '))
+        total += new_valor
 
-        if menor == None:
+        if menor == None or new_valor < menor:
             menor = new_valor
             menor_name = new_name
-
-        if new_valor < menor:
-            menor_name = new_name
-            menor = new_valor
 
         if new_valor >= 1000:
             maior += 1

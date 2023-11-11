@@ -23,9 +23,9 @@ if saque % 50 >= 0:
         if nota20 >= 1:
             print(f'Sacando {math.floor(nota20)} cédula de R$ 20')
 
-        if saque % 10 >= 0:
-            nota10 = saque / 10
-            saque_atual = saque % 10
+        if saque_atual % 10 >= 0:
+            nota10 = saque_atual / 10
+            saque_atual = saque_atual % 10
             if nota10 >= 1:
                 print(f'Sacando {math.floor(nota10)} cédula de R$ 10')
 
@@ -34,7 +34,5 @@ if saque % 50 >= 0:
                 saque_atual = saque_atual % 1
                 if nota1 >= 1:
                     print(f'Sacando {math.floor(nota1)} cédula de R$ 1')
-
-
 
 print(f'\nValor total de saque R$ {saque:.2f}')
