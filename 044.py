@@ -20,28 +20,26 @@ while True:
 
     if user_1 == 1:
         if user_2 == 1 and PC == 1:
-            i += 1
             print(f'\nVocê perdeu para a máquina, o resultado foi par.\nEscolha PC: {PC}')
-            print(f'Tentativa nº {i}')
+            print(f'Quantidade de vitórias nº {i}')
             break
 
         elif user_2 == 1 and PC == 2:
             i += 1
             print(f'\nVocê ganhou!\nEscolha PC: {PC}')
-            print(f'Tentativa nº {i}')
+            print(f'Quantidade de vitórias nº {i}')
             PC = random.randint(1, 2)
 
         elif user_2 == 2 and PC == 1:
             i += 1
             print(f'\nVocê ganhou!\nEscolha PC: {PC}')
-            print(f'Tentativa nº {i}')
+            print(f'Quantidade de vitórias nº {i}')
             PC = random.randint(1, 2)
 
 
         elif user_2 == 2 and PC == 2:
-            i += 1
             print(f'\nVocê perdeu para a máquina, o resultado foi par.\nEscolha PC: {PC}')
-            print(f'Tentativa nº {i}')
+            print(f'Quantidade de vitórias nº {i}')
             break
 
 
@@ -49,24 +47,22 @@ while True:
         if user_2 == 1 and PC == 1:
             i += 1
             print(f'\nVocê ganhou!\n Escolha PC: {PC}')
-            print(f'Tentativa nº {i}')
+            print(f'Quantidade de vitórias nº {i}')
             PC = random.randint(1, 2)
 
 
         elif user_2 == 1 and PC == 2:
-            i += 1
             print(f'\nVocê perdeu para a máquina, o resultado foi impar.\nEscolha PC: {PC}')
-            print(f'Tentativa nº {i}')
+            print(f'Quantidade de vitórias nº {i}')
             break
 
         elif user_2 == 2 and PC == 1:
-            i += 1
             print(f'\nVocê perdeu para a máquina, o resultado foi impar.\nEscolha PC: {PC}')
-            print(f'Tentativa nº {i}')
+            print(f'Quantidade de vitórias nº {i}')
             break
 
         elif user_2 == 2 and PC == 2:
             i += 1
             print(f'\nVocê ganhou!\n Escolha PC: {PC}')
-            print(f'Tentativa nº {i}')
+            print(f'Quantidade de vitórias nº {i}')
             PC = random.randint(1, 2)
