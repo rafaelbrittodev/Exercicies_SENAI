@@ -9,7 +9,7 @@ while True:
         n1 = int(input('Digite o primeiro número: '))
         n2 = int(input('Digite o denominador da divisão: '))
         resultado = n1 / n2
-        print(f'\n{n1} / {2} = {resultado}')
+        print(f'\n{n1} / {n2} = {resultado}')
 
     except ZeroDivisionError:
         print('Não é possível dividir por zero. Tente novamente.')

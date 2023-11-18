@@ -6,10 +6,13 @@
 #            Senai Show de bola
 #       ----------------------------
 
-def format(msg):
-    print('---' * 10)
-    print(msg)
-    print('---' * 10)
+def titulo(frase, arg = '*'):
+    print(arg * 2 * len(a))
+    print(f'{a.center(len(a) * 2)}')
+    print(arg * 2 * len(a))
 
-a = 'Senai Show de bola'
-format(f'{a.center(30)}')
+
+
+a = input('Digite uma frase: ')
+titulo(a, arg = '-')
+
