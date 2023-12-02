@@ -12,10 +12,13 @@ for i in range(n):
 for i in range(0, n):
     for x in range(0, 6):
         valor = random.randint(1,60)
-        matriz[i].pop(-1)
-        matriz[i].insert(x, valor)
+        if valor not in matriz[i]:
+            matriz[i].pop(-1)
+            matriz[i].insert(x, valor)
+            
 
 for i in range(0, n):
+
     print(f'Jogo nº{i+1}\n{matriz[i]}\n')
 
 
