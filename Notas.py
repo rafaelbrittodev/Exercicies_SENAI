@@ -59,3 +59,14 @@ elif altura > 2:
 else:
     print('Você é muito pequeno, quem sabe no próximo ano.')
 '''
+Aluno = list()           # Lista principal
+dados = list()           # Lista secundária
+
+
+for c in range(0, 3):
+   dados.append(str(input('Nome: ')))  # Coleta de dados LS
+   dados.append(int(input('Idade: ')))
+   Aluno.append(dados[:]) #Inserção da cópia na LP
+   dados.clear()
+
+print(Aluno)
